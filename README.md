@@ -18,10 +18,10 @@ My Master's thesis written in 2017 on Jagiellonian University.
 
 Purpose of project is to develop an algorithm that given a photo of a graph (as vertices and edges), parses it and outputs computer-friendly representation (list of edges). To achieve that, multiple computer-vision techniques are used, such as:
 
-⋅⋅* blob detection
-⋅⋅* edges and corners detection
-⋅⋅* morphological operations
-⋅⋅* convolutions with different kernels
+* blob detection
+* edges and corners detection
+* morphological operations
+* convolutions with different kernels
 
 To find out more about running the software and the thesis itself, please refer to readme file in Graph Recognition folder. You can also find the original text of the thesis.
 
