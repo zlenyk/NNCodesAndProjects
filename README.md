@@ -13,6 +13,18 @@ All dependencies can be installed by running
 pip install -r requirements.txt
 ```
 
+### Hand-drawn graph recognition (Master's thesis)
+My Master's thesis written in 2017 on Jagiellonian University.
+
+Purpose of project is to develop an algorithm that given a photo of a graph (as vertices and edges), parses it and outputs computer-friendly representation (list of edges). To achieve that, multiple computer-vision techniques are used, such as:
+
+⋅⋅* blob detection
+⋅⋅* edges and corners detection
+⋅⋅* morphological operations
+⋅⋅* convolutions with different kernels
+
+To find out more about running the software and the thesis itself, please refer to readme file in Graph Recognition folder. You can also find the original text of the thesis.
+
 ### Generative Adversarial Networks - CIFAR10
 
 Own implementation of GANs for generating CIFAR10 images.
@@ -52,9 +64,9 @@ Deep Residual Learning for Image Recognition (Microsoft Research) - https://arxi
 Striving for simplicity - https://arxiv.org/pdf/1412.6806.pdf
 
 ### Text generation - LSTM
-Implemetation of recurent neural network - long short term memory network.
+Implementation of recurrent neural network - long short term memory network.
 Trained on a very famous Polish book - Pan Tadeusz. Tries to predict next letter of the text based on last read letters (how many exactly is a hyper-parameter). After such training (after each epoch) new text is generated, which starts with only beginning of one sentence and the network tries to recreate the text.
-The result are very exciting - text has a lot features of Polish language and would be recognized by any Polish speaker as an attempt to write some actual text.
+The result are very exciting - text has a lot features of Polish language and would be recognised by any Polish speaker as an attempt to write some actual text.
 
 ```
 python LSTM/lstm2.py

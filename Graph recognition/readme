@@ -1,0 +1,39 @@
+FOR OSX:
+Environment was created with conda, by running conda file:
+conda create --name <env> --file req.txt
+
+and then more libraries are installed with pip from requirements.txt, command:
+pip install -r requirements.txt
+
+FOR LINUX:
+create conda environment with:
+conda create --name <env> --file req_linux.txt
+
+next install additionally graphviz library with:
+pip install graphviz
+
+in case of troubles with installing matplotlib
+
+usage:
+python run -f <graph_image>
+
+Results (generated graph image and DOT file) are located in "results/" folder.
+
+TESTS:
+python manager.py -f <first file number> -l <last file number (optional)>
+
+example:
+python manager.py -f 100 -l 171
+this runs all tests
+
+
+output of tests:
+Number 164 vertices: 8  blobs: 11 BLOBS OVER  edges: 7  real edges: 4  EDGES OVER  ISO FALSE  time: 7.93070006371
+means that there were too many vertices and edges recognized, so graph is not isomorphic with correct one
+
+Number 162 vertices: 4  blobs: 4  BLOBS OK    edges: 2  real edges: 2  EDGES OK    ISO OK     time: 5.80566215515
+when everything is ok
+
+Dot files are taken from "dot/" directory
+
+configuration can be changed in config.py
