@@ -39,3 +39,9 @@ python convolutional.py
 ```
 
 This trains and tests the network. Trained parameters are saved using saver and can be reused.
+Plenty of state-of-art improvements to standard CNN are implemented in this project.
+I found those to be most influential - Residual networks, wide vs deep networks, replacing pooling with convolutions with stride 2.
+
+Resources:
+Deep Residual Learning for Image Recognition (Microsoft Research) - https://arxiv.org/abs/1512.03385
+Striving for simplicity - https://arxiv.org/pdf/1412.6806.pdf
